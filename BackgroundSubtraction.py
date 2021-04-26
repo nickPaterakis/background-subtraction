@@ -1,6 +1,6 @@
 import cv2
 
-video_path = '../put-your-video'
+video_path = '../your-video'
 
 # read video file
 cap = cv2.VideoCapture(video_path)
