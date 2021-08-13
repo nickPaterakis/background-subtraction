@@ -8,7 +8,8 @@ Background subtraction is an efficient way to localize and obtain the centroid o
 
 # Example
 
-https://user-images.githubusercontent.com/36018286/128686874-432d4e91-8c57-4564-9c5d-e77fa990d2d3.mp4
+![result](https://user-images.githubusercontent.com/36018286/129376227-021d2e0b-d8dc-4c56-a9ef-e859b3ea43a6.gif)
+
 
 
 
