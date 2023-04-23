@@ -1,15 +1,22 @@
-# background-subtraction
+# Background Subtraction using OpenCV <img alt="GitHub" src="https://img.shields.io/github/license/nickPaterakis/background-subtraction">
 
-<img alt="GitHub" src="https://img.shields.io/github/license/nickPaterakis/background-subtraction">
+This project demonstrates the use of OpenCV for background subtraction in video processing. The implemented algorithm can accurately detect moving objects in a video stream and draw bounding boxes around them.
 
-# Definition By Satrughan Kumar
+## Usage
 
-Background subtraction is an efficient way to localize and obtain the centroid of the connected pixels moving on the foreground despite the prior information of the scene. It is suitable under fixed camera arrangement, which incorporates many vision applications such as object tracking, human monitoring, etc. However, the moving object extraction task becomes sophisticated and challenging due to some annoying factors such as local motion in background (waving tree, rippling water, etc.), camouflage region, sleeping object, which in turn degrades the tracking performance.
+To use this project, you will need to have OpenCV installed in your system. You can then run the background_subtraction.py script by passing the path to your input video file as an argument. For example:
 
-# Code Testing
+```
+python background_subtraction.py --video_path ../your-video
+```
 
-![result](https://user-images.githubusercontent.com/36018286/129377035-c547d9ba-4a8d-44ff-ae12-5e0b42c25879.gif)
+The script will apply background subtraction to the video stream and display two windows: one showing the foreground and background masks and another showing the original RGB frame with bounding boxes around detected objects.
 
+## Results
+I have included a video in this repository that shows the results of applying the background subtraction algorithm to an input video. The algorithm is able to accurately track moving objects and create a clean foreground mask.
+<div align="center">
+  <img src="https://user-images.githubusercontent.com/36018286/129377035-c547d9ba-4a8d-44ff-ae12-5e0b42c25879.gif" width="500" />
+</div>
 
 
 
